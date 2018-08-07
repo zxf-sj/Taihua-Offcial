@@ -2,10 +2,11 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Document</title>
-	<link rel="stylesheet" href="css/reset.css">
-	<link rel="stylesheet" href="css/index.css">
-	<link rel="stylesheet" href="css/swiper.min.css">
+	<title>首页</title>
+	<link rel="stylesheet" href="./css/reset.css">
+	<link rel="stylesheet" href="./css/inier.css">
+	<link rel="stylesheet" href="./css/index.css">
+	<link rel="stylesheet" href="./css/swiper.min.css">
 </head>
 <body>
 	<div id="box">
@@ -31,17 +32,12 @@
 						</div>
 						<div class="nav_r_b">
 							<ul>
-								<li style="background-color: rgba(10,10,10,0.3);">公司首页</li>
-								<li class="nav_bar_li">泰华寿悦
-									<div class="bar_li_div">
-										<p><a href="">泰华寿悦</a></p>
-										<p><a href="">BBM优选商城</a></p>
-									</div>
-								</li>
-								<li>BBM优选商城</li>
-								<li>行业资讯</li>
-								<li>联系我们</li>
-								<li>人才招聘</li>
+								<li style="background-color: rgba(10,10,10,0.3);"><a href="html/information.html">公司首页</a></li>
+								<li class="nav_bar_li"><a href="html/details.html">泰华寿悦</a></li>
+								<li><a href="html/BBM.html">BBM优选商城</a></li>
+								<li><a href="html/information.html">行业资讯</a></li>
+								<li><a href="html/address.html">联系我们</a></li>
+								<li><a href="html/recruit.html">人才招聘</a></li>
 							</ul>
 						</div>
 					</div>
@@ -53,13 +49,13 @@
 					<!-- 轮播图 -->
 				    <div class="swiper-wrapper">
 				        <div class="swiper-slide">
-							<img src="img/banner.png" alt="banner">
+							<img src="https://bbm-cdn.oss-cn-beijing.aliyuncs.com/advertise/enterbbm/sy_banner_1.jpg" alt="banner">
 				        </div>
 				        <div class="swiper-slide">
-				        	<img src="img/banner.png" alt="banner">
+				        	<img src="https://bbm-cdn.oss-cn-beijing.aliyuncs.com/advertise/enterbbm/sy_banner_2.jpg" alt="banner">
 				        </div>
 				        <div class="swiper-slide">
-				        	<img src="img/banner.png" alt="banner">
+				        	<img src="https://bbm-cdn.oss-cn-beijing.aliyuncs.com/advertise/enterbbm/sy_banner_3.jpg" alt="banner">
 				        </div>
 				    </div>
 				    <!-- 如果需要导航按钮 -->
@@ -194,7 +190,7 @@
 								   
 							    </ul>
 							    <ul class="donate_bar2">
-								   
+								  
 							    </ul>
 							</div>
 						</div>
@@ -279,7 +275,8 @@
 <script>        
   var mySwiper = new Swiper ('.swiper-container', {
     direction: 'horizontal',
-    loop: true,   
+    loop: true,  
+    autoplay:true,
     // 如果需要前进后退按钮
     navigation: {
       nextEl: '.swiper-button-next',

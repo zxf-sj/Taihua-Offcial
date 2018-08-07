@@ -1,0 +1,45 @@
+.content {
+  width: 1200px;
+  height: auto;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.content .con_l {
+  width: 822px;
+  float: left;
+  overflow: hidden;
+  margin-top: 50px;
+}
+.content .con_r {
+  width: 336px;
+  height: auto;
+  margin-left: 40px;
+  float: right;
+  margin-top: 200px;
+}
+
+.content .con_r .item {
+  width: 100%;
+  height: 104px;
+  border-bottom: 1px solid #999999;
+  cursor:pointer;
+}
+.content .con_r .item p {
+  height: 41px;
+  font-size: 25px;
+  color: #333333;
+  line-height: 41px;
+  margin-top: 22px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.content .con_r .item span {
+  height: 29px;
+  font-size: 13px;
+  line-height: 29px;
+  color: #999999;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

@@ -1,0 +1,80 @@
+.banner {
+    width: 100%;
+    height: 400px;
+    img {
+        height: 100%;
+    }
+}
+
+.content {
+    width: 1200px;
+    height: 425px;
+    margin: 0 auto;
+    display: flex;
+    flex-flow: row;
+    margin-top: 50px;
+    .con_l {
+        width: 250px;
+        height: 100%;
+        margin-left: 30px;
+        img {
+            margin-top: 30px;
+            width: 100%;
+            height: 250px;
+        }
+        p {
+            height: 74px;
+            width: 100%;
+            line-height: 74px;
+            font-size: 24px;
+            color: #333333;
+            text-align: center;
+        }
+    }
+    .con_r {
+        flex: 1;
+        height: 100%;
+        margin-top: 30px;
+        margin-left: 30px;
+        p {
+            font-size: 24px;
+            line-height: 40px;
+            color: #666;
+        }
+    }
+}
+
+#text {
+    width: 1200px;
+    min-height: 1350px;
+    margin: 0 auto;
+    position: relative;
+    .text {
+        line-height: 72px;
+        font-size: 22px;
+        text-align: center;
+        background-color: #f5f5f5;
+        margin-top: 50px;
+        position: absolute;
+        top: 0;
+        left: -3000px;
+        transition: left 2s;
+        -moz-transition: left 2s; /* Firefox 4 */
+        -webkit-transition: left 2s; /* Safari 和 Chrome */
+        -o-transition: left 2s; /* Opera */
+    }
+}
+
+.bottom {
+    width: 1070px;
+    height: 140px;
+    background-color: #eaeaea;
+    margin: 60px auto;
+    line-height: 34px;
+    font-size: 22px;
+    text-indent:2em; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 65px;
+}

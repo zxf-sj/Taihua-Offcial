@@ -1,3 +1,4 @@
+
 window.onload = function() {
 	//滑过事件
 	$(".newTxt_t li").mouseover(function() {
@@ -9,26 +10,7 @@ window.onload = function() {
 		}
 	});
 
-	//ajax请求
-	$.ajax({
-		type:"get",
-		//url:"https://api.douban.com/v2/book/search?q=javascript&count=1",
-		url:"http://192.168.200.86:8080/platform-framework/api/topic/list",
-		dataType: "jsonp",
-		async: true,
-		jsonp: "callback",
-		success: function(res) {
-			console.log(res);
-			for (var i = 0; i < res.length; i ++) {
-				if (res[i].topic_category_id == 1) {
-					$(".donate_bar").append("<li><a href=''>"+res[i].title+"</a> </li>");
-				} else if (res[i].topic_category_id == 2){
-					$(".donate_bar2").append("<li><a href=''>"+res[i].title+"</a> </li>");
-				}
-			}
-			
-		}       
-	});
+	
 	
 	$(".newTxt_t li").mouseover(function() {
 		if ($(this).index() == 0) {
@@ -45,5 +27,60 @@ window.onload = function() {
 	},function() {
 		$(".bar_li_div").css("display","none");
 	})
+	 Ajax();
+ 	function Ajax() {
+
+
+		$.ajax({
+			url: 'https://t.bbmgood.com/web/demo.php?path=getList&parm=公司新闻&page=1&limit=20',
+			type: 'get',
+			dataType: 'jsonp',
+			jsonp: "callback",
+			jsonpCallback:"callback",
+		})	
+		.done(function(data) {
+
+			for (var i = 0; i < data.data.length; i++) {
+				$('.donate_bar').append('<li><i style="display: none;">'+data.data[i].id+'</i>'+data.data[i].article_title+'</li>');
+			}
+		})
+		.fail(function() {
+			console.log("error");
+		})
+		.always(function() {
+			console.log("complete");
+			$('.donate_bar li').click(function() {
+				location.href = 'html/news.html?con=1&id='+$(this).children('i').html();
+			});
+		});
+
+
+		setTimeout(function() {
+
+	 		$.ajax({
+				url: 'https://t.bbmgood.com/web/demo.php?path=getList&parm=行业资讯&page=1&limit=20',
+				type: 'get',
+				dataType: 'jsonp',
+				jsonp: "callback",
+				jsonpCallback:"callback",
+			})
+			.done(function(data) {
+
+				for (var i = 0; i < data.data.length; i++) {
+					$('.donate_bar2').append('<li><i style="display: none;">'+data.data[i].id+'</i>'+data.data[i].article_title+'</li>');
+				}
+			})
+			.fail(function() {
+				console.log("error");
+			})
+			.always(function() {
+				console.log("complete");
+				$('.donate_bar li').click(function() {
+					location.href = 'html/news.html?con=2&id='+$(this).children('i').html();
+				});
+			});
+		},300)
+		
+	}
 
 }

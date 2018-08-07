@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" href="../css/reset.css">
+		<link rel="stylesheet" href="../css/inier.css">
+		<link rel="stylesheet" type="text/css" href="../css/address.css"/>
+	</head>
+	<body>
+		<div id="box">
+			<div class="nav_box">
+				<div class="nav">
+					<div class="nav_h">
+						<img src="../img/bbm.png" alt="BBM">
+						<h1>北京泰华寿悦科技发展有限公司</h1>
+					</div>
+					<div class="nav_r">
+						<div class="nav_r_t">
+							<p class="nav_rt_p on">
+								<img src="../img/phone.png" alt="phone">010-61862909
+							</p>
+							<p class="nav_rt_p to">
+								<img src="../img/gmail.png" alt="phone">www.bbmgood.com
+							</p>
+							<p class="nav_rt_p ser">
+								<img src="../img/map.png" alt="phone">北京市门头沟区石龙阳光大厦23层
+							</p>
+						</div>
+						<div class="nav_r_b">
+							<ul>
+								<li ><a href="../index.html">公司首页</a></li>
+								<li ><a href="details.html">泰华寿悦</a></li>
+								<li><a href="BBM.html">BBM优选商城</a></li>
+								<li><a href="information.html">行业资讯</a></li>
+								<li style="background-color: rgba(10,10,10,0.3);"><a href="">联系我们</a></li>
+								<li><a href="recruit.html">人才招聘</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--banner-->
+			<div class="banner">
+				<img src="https://bbm-cdn.oss-cn-beijing.aliyuncs.com/web/img/lxwm_banner.jpg"/>
+			</div>
+			<!--content-->
+			<div class="content">
+				<div class="con_L">
+					<h2>
+						联系我们
+					</h2>
+					<p>电话：010-61862909</p>
+					<p>地址：北京市门头沟区石龙阳光大厦23层</p>
+					<p>上班时间：周一至周五/10am-6pm</p>
+					<img src="https://bbm-cdn.oss-cn-beijing.aliyuncs.com/web/img/lxwm_ewm.jpg"/>
+					<p style="margin-left: 33px;">客服二维码</p>
+				</div>
+				<div class="con_R">
+					<div id="l-map"></div>
+					<!--<div id="r-result"></div>-->
+				</div>
+			</div>
+			<!-- bottom -->
+			<div class="bottom">
+				<div class="btn_t">
+					<div class="btn_txt">
+						<p>以服务为导向</p>
+						<p>以科技为依托</p>
+						<p>传承品质生活</p>
+						<p>提升全民时尚品味</p>
+						<p>大健康事业</p>
+						<p>服务与人类美丽</p>
+					</div>
+				</div>
+			</div>
+			<!-- footer -->
+			<div class="footer">
+				<div class="foot">
+					<div class="foot_t">
+						<li><a href="javascript:;">公司首页</a></li>
+						<li><a href="javascript:;">泰华寿悦</a></li>
+						<li><a href="javascript:;">BBM优选商城</a></li>
+						<li><a href="javascript:;">行业资讯</a></li>
+						<li><a href="javascript:;">联系我们</a></li>
+						<li class="foot_li"><a href="javascript:;">人才招聘</a></li>
+						<span><a href="javascript:;"><img src="../img/xinlang.png" alt=""></a></span>
+						<span><a href="javascript:;"><img src="../img/weixin.png" alt=""></a></span>
+					</div>
+					<div class="foot_c">
+							Taihua shouyue techonology development co. itd.
+					</div>
+					<div class="foot_b">
+						<p class="foot_b_p1">京ICP备10206846</p>
+						<p class="foot_b_p2">技术支持：泰华寿悦</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
+<script type="text/javascript" src="http://api.map.baidu.com/getscript?v=2.0&ak=rYxoU7iQxZAUY1noClGUL65nR1BEyEex"></script>
+<script type="text/javascript">
+
+
+var sContent ="石龙阳光大厦23层";
+	var map = new BMap.Map("l-map");
+	var point = new BMap.Point(116.136937,39.902228);
+	map.centerAndZoom(point, 15);
+	map.enableScrollWheelZoom(true);
+	var infoWindow = new BMap.InfoWindow(sContent);  // 创建信息窗口对象
+	map.openInfoWindow(infoWindow,point); //开启信息窗口
+	document.getElementById("r-result").innerHTML = "信息窗口的内容是：<br />" + infoWindow.getContent();
+	
+</script>

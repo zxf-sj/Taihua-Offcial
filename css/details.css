@@ -1,0 +1,428 @@
+.banner {
+  width: 100%;
+  height: 400px;
+}
+.banner img {
+  height: 100%;
+}
+.content_a {
+  width: 100%;
+  height: 475px;
+}
+.content_a .con_a_cen {
+  height: 100%;
+  width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-flow: column;
+}
+.content_a .con_a_cen h2 {
+  margin-top: 95px;
+  width: 100%;
+  height: 65px;
+  line-height: 65px;
+  font-size: 26px;
+  color: #101010;
+  padding-left: 18px;
+  background-image: url('https://bbm-cdn.oss-cn-beijing.aliyuncs.com/web/img/2-%E6%B3%B0%E5%8D%8E%E5%AF%BF%E6%82%A6_03.png');
+  background-repeat: no-repeat;
+  background-position: left center;
+}
+.content_a .con_a_cen .a_bot {
+  width: 100%;
+  flex: 1;
+}
+.content_a .con_a_cen .a_bot .a_bot_l {
+  width: 600px;
+  height: 100%;
+  float: left;
+}
+.content_a .con_a_cen .a_bot .a_bot_l p {
+  line-height: 30px;
+  font-size: 18px;
+  color: #6b6b6b;
+  margin-bottom: 30px;
+}
+.content_a .con_a_cen .a_bot img {
+  width: 560px;
+  height: 250px;
+  float: right;
+  margin-top: 5px;
+}
+.content_b {
+  width: 100%;
+  height: 523px;
+  background-color: #eeeeee;
+}
+.content_b .con_b_cen {
+  width: 1200px;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-flow: column;
+}
+.content_b .con_b_cen h2 {
+  margin-top: 40px;
+  width: 100%;
+  height: 65px;
+  line-height: 65px;
+  font-size: 26px;
+  color: #101010;
+  padding-left: 18px;
+  background-image: url('https://bbm-cdn.oss-cn-beijing.aliyuncs.com/web/img/2-%E6%B3%B0%E5%8D%8E%E5%AF%BF%E6%82%A6_03.png');
+  background-repeat: no-repeat;
+  background-position: left center;
+}
+.content_b .con_b_cen .b_bot {
+  width: 100%;
+  flex: 1;
+}
+.content_b .con_b_cen .b_bot .b_bot_l {
+  width: 600px;
+  height: 100%;
+  float: left;
+}
+.content_b .con_b_cen .b_bot .b_bot_l p {
+  line-height: 35px;
+  font-size: 20px;
+  color: #6b6b6b;
+  margin-bottom: 30px;
+}
+.content_b .con_b_cen .b_bot img {
+  width: 560px;
+  height: 250px;
+  float: right;
+  margin-top: 5px;
+}
+.content_c {
+  width: 100%;
+  height: 888px;
+}
+.content_c .content_c_cen {
+  width: 1200px;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-flow: column;
+}
+.content_c .content_c_cen h2 {
+  margin-top: 53px;
+  width: 100%;
+  height: 65px;
+  line-height: 65px;
+  font-size: 26px;
+  color: #101010;
+  padding-left: 18px;
+  background-image: url('https://bbm-cdn.oss-cn-beijing.aliyuncs.com/web/img/2-%E6%B3%B0%E5%8D%8E%E5%AF%BF%E6%82%A6_03.png');
+  background-repeat: no-repeat;
+  background-position: left center;
+}
+.content_c .content_c_cen .c_bot {
+  width: 100%;
+  flex: 1;
+}
+.content_c .content_c_cen .c_bot .c_bot_l {
+  width: 100%;
+  height: 270px;
+}
+.content_c .content_c_cen .c_bot .c_bot_l p {
+  line-height: 30px;
+  font-size: 18px;
+  color: #6b6b6b;
+  margin-bottom: 30px;
+}
+.content_c .content_c_cen .c_bot .vodeo_box {
+  width: 100%;
+  height: 400px;
+}
+.content_c .content_c_cen .c_bot .vodeo_box video {
+  width: 100%;
+  height: 100%;
+}
+.content_d {
+  width: 100%;
+  height: 550px;
+  background-color: #eeeeee;
+  overflow: hidden;
+}
+.content_d .content_d_cen {
+  width: 1200px;
+  height: 100%;
+  margin: 0 auto;
+}
+.content_d .content_d_cen h2 {
+  margin-top: 53px;
+  width: 100%;
+  height: 65px;
+  line-height: 65px;
+  font-size: 26px;
+  color: #101010;
+  padding-left: 18px;
+  background-image: url('https://bbm-cdn.oss-cn-beijing.aliyuncs.com/web/img/2-%E6%B3%B0%E5%8D%8E%E5%AF%BF%E6%82%A6_03.png');
+  background-repeat: no-repeat;
+  background-position: left center;
+}
+.content_d .content_d_cen .d_bot {
+  width: 100%;
+  height: 367px;
+  position: relative;
+  margin-top: 26px;
+}
+.content_d .content_d_cen .d_bot .years_t {
+  height: 139px;
+  width: 100%;
+}
+.content_d .content_d_cen .d_bot .years_t .years_t_t {
+  width: 234px;
+  height: 100%;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 50px;
+  float: left;
+}
+.content_d .content_d_cen .d_bot .years_t .years_t_t span {
+  display: block;
+  width: 54px;
+  height: 54px;
+  border-radius: 50%;
+  background-color: #262626;
+}
+.content_d .content_d_cen .d_bot .years_t .years_t_t .shape {
+  width: 13px;
+  flex: 1;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2px;
+}
+.content_d .content_d_cen .d_bot .years_t .years_t_t .shape span {
+  display: block;
+  width: 13px;
+  height: 13px;
+  border-radius: 50%;
+}
+.content_d .content_d_cen .d_bot .years_t .years_t_t .shape i {
+  width: 3px;
+  flex: 1;
+  background-color: #262626;
+}
+.content_d .content_d_cen .d_bot .years_t .years_t_txt {
+  width: 322px;
+  height: 100%;
+  float: left;
+}
+.content_d .content_d_cen .d_bot .years_t .years_t_txt p {
+  font-size: 18px;
+  line-height: 22px;
+  color: #2b2b2b;
+  margin-top: 55px;
+  text-align: center;
+}
+.content_d .content_d_cen .d_bot .years {
+  height: 58px;
+  width: 100%;
+  margin-top: 17px;
+  line-height: 58px;
+  font-size: 24px;
+  color: #292929;
+}
+.content_d .content_d_cen .d_bot .years p {
+  display: flex;
+  align-items: center;
+  /*垂直居中*/
+  float: left;
+}
+.content_d .content_d_cen .d_bot .years p span {
+  width: 54px;
+  height: 54px;
+  border-radius: 50%;
+  background-color: #e3e3e3;
+  display: inline-block;
+}
+.content_d .content_d_cen .d_bot .years p i {
+  width: 83px;
+  height: 5px;
+  background-color: #ffffff;
+  display: block;
+  margin-right: 3px;
+}
+.content_e {
+  width: 100%;
+  height: 595px;
+}
+.content_e .content_e_cen {
+  width: 1200px;
+  height: 100%;
+  margin: 0 auto;
+}
+.content_e .content_e_cen h2 {
+  margin-top: 53px;
+  width: 100%;
+  height: 65px;
+  line-height: 65px;
+  font-size: 26px;
+  color: #101010;
+  padding-left: 18px;
+  background-image: url('https://bbm-cdn.oss-cn-beijing.aliyuncs.com/web/img/2-%E6%B3%B0%E5%8D%8E%E5%AF%BF%E6%82%A6_03.png');
+  background-repeat: no-repeat;
+  background-position: left center;
+}
+.content_e .content_e_cen p {
+  color: #6b6b6b;
+  font-size: 20px;
+  line-height: 30px;
+  margin-top: 46px;
+}
+.content_e .content_e_cen .lit {
+  width: 226px;
+  height: 380px;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  margin-right: 98px;
+  float: left;
+  font-size: 24px;
+  font-weight: 700;
+  color: #666;
+}
+.content_e .content_e_cen .lit img {
+  margin-top: 58px;
+  margin-bottom: 40px;
+  width: 150px;
+  height: 150px;
+}
+.content_f {
+  width: 100%;
+  height: 410px;
+  background-color: #eeeeee;
+}
+.content_f .content_f_cen {
+  width: 1200px;
+  height: 100%;
+  margin: 0 auto;
+}
+.content_f .content_f_cen h2 {
+  margin-top: 53px;
+  width: 100%;
+  height: 65px;
+  line-height: 65px;
+  font-size: 26px;
+  color: #101010;
+  padding-left: 18px;
+  background-image: url('https://bbm-cdn.oss-cn-beijing.aliyuncs.com/web/img/2-%E6%B3%B0%E5%8D%8E%E5%AF%BF%E6%82%A6_03.png');
+  background-repeat: no-repeat;
+  background-position: left center;
+}
+.content_f .content_f_cen .f_bot {
+  width: 100%;
+  height: 250px;
+  margin-top: 40px;
+}
+.content_f .content_f_cen .f_bot .f_t {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  flex-flow: row;
+}
+.content_f .content_f_cen .f_bot .f_t p {
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  float: left;
+  line-height: 125px;
+  font-size: 25px;
+  font-weight: 900;
+}
+.content_f .content_f_cen .f_bot .f_t p img {
+  border-radius: 50%;
+  width: 91px;
+  height: 91px;
+  margin-right: 25px;
+}
+.content_f .content_f_cen .f_bot .f_b {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  flex-flow: row;
+}
+.content_f .content_f_cen .f_bot .f_b p {
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  float: left;
+  line-height: 125px;
+  font-size: 25px;
+  font-weight: 900;
+}
+.content_f .content_f_cen .f_bot .f_b p img {
+  border-radius: 50%;
+  width: 91px;
+  height: 91px;
+  margin-right: 25px;
+}
+.content_g {
+  width: 100%;
+  height: 1025px;
+}
+.content_g .content_g_cen {
+  width: 1200px;
+  height: 100%;
+  margin: 0 auto;
+}
+.content_g .content_g_cen h2 {
+  margin-top: 53px;
+  width: 100%;
+  height: 65px;
+  line-height: 65px;
+  font-size: 26px;
+  color: #101010;
+  padding-left: 18px;
+  background-image: url('https://bbm-cdn.oss-cn-beijing.aliyuncs.com/web/img/2-%E6%B3%B0%E5%8D%8E%E5%AF%BF%E6%82%A6_03.png');
+  background-repeat: no-repeat;
+  background-position: left center;
+}
+.content_g .content_g_cen .item {
+  width: 580px;
+  height: 397px;
+  float: left;
+}
+.content_g .content_g_cen .item img {
+  width: 100%;
+  height: 240px;
+}
+.content_g .content_g_cen .item h3 {
+  height: 57px;
+  line-height: 57px;
+  font-size: 26px;
+}
+.content_g .content_g_cen .item p {
+  height: 28px;
+  line-height: 28px;
+  color: #6b6b6b;
+  font-size: 20px;
+}
+.bottom {
+  height: 48px;
+  background-color: #f3f3f3;
+}
+.bottom .btn_t {
+  height: 48px;
+  width: 1200px;
+  margin: 0 auto;
+}
+.bottom .btn_t .btn_txt {
+  width: 800px;
+  height: 48px;
+  margin: 0 auto;
+  line-height: 48px;
+}
+.bottom .btn_t .btn_txt p {
+  height: 48px;
+  font-size: 16px;
+  color: #333333;
+  float: left;
+  margin: 0 15px;
+}
